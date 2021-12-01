@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="img_src/logo.png">
+    <title>Wellcome My Website</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img_src/logo1.png">
+        <nav>
+            <ul class="nav-link">
+                <a href="#">Project</a>
+                <a href="#">Degree - Certificate</a>
+                <a href="#">About me</a>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+    </header>
+    <body>
+        <div class="ID-Card-layout"> 
+            <div class="card-info">
+               <h5>PROFILE</h5>
+               <img src="img_src/logo.png" width="50px" height="50px" >
+               <br>
+               Hello !!!
+               <ul>
+                   <li>Name:Tran Tien Dat</li>
+                   <li>Birthday:07/10/2002</li>
+                   <li>Status:Student</li>
+                   <li>Address:145 Hoang Dieu 2 - Linh Trung -Thu Duc - TP.HCM</li>
+                   <li>Gender:Male</li>
+               </ul>
+            </div>
+            <div class="card-info">
+                <h5>EDUCATION</h5>
+                <img src="img_src/edu.png" width="50px" height="50px" >
+                <br>
+                I'm a Student
+                <ul>
+                    <li>Second-year student in HCMUTE</li>
+                    <li>Oct 2020 - Oct 2024</li>
+                    <li>Software Engineering</li>
+                    <li>Furture GPA: 3.6 :)</li>
+                    
+                </ul>
+                
+            </div>
+            <div class="card-info">
+                <h5>SKILLS</h5>
+                <img src="img_src/skill.png" width="50px" height="50px" >
+                <br>
+                My Skills
+                <ul>
+                    <li>Interpersonal skills, planning, teamwork, training, computing</li>
+                    <li>Mindset Programming: Good</li>
+                    <li>Programming Language: C/C++,C#,HTMM/CSS/JS...</li>
+                   
+                </ul>
+               
+            </div>
+            <div class="card-info">
+                <h5 >ANY QUESTIONS</h5>
+                <img src="img_src/question.png" width="50px" height="50px" >
+                <br>
+                Do you give any questions ?
+                <form>
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your Name">
+                    <label>Email</label>
+                    <input type="text" placeholder="Enter your Email">
+                    <label>Question</label>
+                    <input type="text" placeholder="Enter your questions">
+                    <button>Send</button>
+
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <img src=img_src/QRCODE.png>
+            <ul>
+                <p>Thông tin liên hệ cơ bản</p>
+                <li>GitHub</li>
+                <li>Facebook</li>
+                <li>Zalo</li>
+            </ul>
+            <ul>
+                <p>Thông tin các khóa đã học</p>
+                <li>HackerRank</li>
+                <li>IELTS</li>
+                <li>Luyencode.com</li>
+            </ul>
+            <ul>
+                <p> Các Chứng Chỉ Hiện Có</p>
+                <li>Office</li>
+                <li>Adobe PS/AI/Pr</li>
+                <li>Khác...</li>
+            </ul>
+            <ul>
+            <p id="hvn"></p>
+                <script>
+                    var today = new Date();
+                    var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+                    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                    var dateTime = date+' '+time;
+                    document.getElementById("hvn").innerHTML = dateTime;
+                </script>
+            </ul>
+        </div>
+        <p>Bản quyền thuộc về Trần Tiến Đạt Ⓒ  2021</p>
+    </body>
+</body>
+
